@@ -1,0 +1,17 @@
+{
+  "name": "2150 Office Hour Notification",
+  "version": "1.0",
+  "description": "Alerts you when the queue is not empty.",
+  "background": {
+    "scripts": ["js/background.js"]
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://libra.cs.virginia.edu/~pedagogy/queue.php*"],
+      "js": ["js/content.js"]
+    }
+  ],
+  "permissions": ["activeTab", "notifications", "storage"],
+  "browser_action": {},
+  "manifest_version": 2
+}
