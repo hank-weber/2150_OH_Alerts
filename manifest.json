@@ -7,7 +7,7 @@
   },
   "content_scripts": [
     {
-      "matches": ["https://libra.cs.virginia.edu/~pedagogy/queue.php*"],
+      "matches": ["https://libra.cs.virginia.edu/~pedagogy/queue.php"],
       "js": ["js/content.js"]
     }
   ],

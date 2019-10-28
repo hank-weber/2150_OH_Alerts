@@ -20,7 +20,7 @@ async function onPageLoad(){
     }
   }
   await sleep(15000);
-  window.location = "https://libra.cs.virginia.edu/~pedagogy/queue.php?mobile";
+  window.location = "https://libra.cs.virginia.edu/~pedagogy/queue.php";
 }
 
 onPageLoad();

@@ -5,5 +5,5 @@ select Load unpacked -> select the 2150-OH-Alerts folder
 
 When using:
 Go to office hours queue as usual.
-Right click on mobile view and select open in new tab
+Open this link manually in a tab: https://libra.cs.virginia.edu/~pedagogy/queue.php
 The extension should automatically start in the new tab
